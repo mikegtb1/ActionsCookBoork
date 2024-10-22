@@ -26,7 +26,7 @@ jobs:
           echo "My secret is '$sec'."
   Load_Test:
     runs-on: ubuntu-latest
-    environment: Load-Test
+    environment: Load_Test
     needs: first_job
     steps:
       - run: |
